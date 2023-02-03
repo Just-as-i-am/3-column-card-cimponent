@@ -1,0 +1,90 @@
+body{
+  color: #fff;
+  background-color: #FFE15D;
+  margin: 5rem 8rem 3rem 8rem;
+  font-size: 15px;
+  text-align: left;
+}
+
+.sedans{
+  background-color: #F2921D;
+  padding: 3rem 7rem 2rem 4rem;
+  border-radius: 10px 0 0 10px;
+}
+.suvs{
+  background-color: #0081B4;
+    padding: 3rem 7rem 2rem 4rem;
+}
+.luxury{
+  background-color: #003333;
+     padding: 3rem 6rem 2rem 4rem;
+     border-radius: 0 10px 10px 0;
+}
+h1,p,img{
+line-height: 2;
+
+}
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+/* buttons */
+.btn{
+  border-radius: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+/* sednas button */
+.btn-sedans:hover {
+  background-color: #F2921D;
+  color: #ffff;
+}
+.btn-sedans{
+  color: #F2921D;
+}
+/* suvs button */
+.btn-suvs:hover {
+  background-color: #0081B4;
+  color: #ffff;
+}
+.btn-suvs{
+  color: #0081B4;
+}
+/* luxurys button */
+.btn-luxury:hover {
+  background-color: #003333;
+  color: #ffff;
+}
+.btn-luxury{
+  color: #003333;
+}
+
+/* mobile version */
+@media screen and (max-width:900px){
+body{
+      margin-top: 10px;
+      margin-bottom: 10px;
+}
+.sedans, .suvs, .luxury{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.sedans{
+border-radius: 10px 10px 0 0;
+}
+.suvs{
+border-radius: 0;
+}
+.luxury{
+  border-radius: 0 0 10px 10px;
+}
+.btn{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+}
